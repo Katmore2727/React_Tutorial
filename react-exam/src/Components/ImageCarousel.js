@@ -10,6 +10,7 @@ export default function ImageCarousel() {
   return (
     <div className="App">
       <Carousel showThumbs={false}>
+        
         <div>
           <img src={f1} alt="f1" />
           <p className="legend">Image 1</p>
@@ -22,6 +23,7 @@ export default function ImageCarousel() {
           <img src={f3} alt="f3" />
           <p className="legend">Image 3</p>
         </div>
+       
       </Carousel>
     </div>
   );
