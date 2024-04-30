@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
+import './Navbar';
+import Navbar from './Navbar';
 import './Accordion.css';
+
 
 function Accordion({ question, answer }) {
     const [display, setDisplay] = useState(false);
@@ -9,7 +12,10 @@ function Accordion({ question, answer }) {
     }
 
     return (
+        
         <div className='list'>
+
+            {/* <Navbar></Navbar> */}
             <div>
                 <div className='question'>
                     <div>{question}</div>

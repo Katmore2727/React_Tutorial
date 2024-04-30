@@ -1,0 +1,42 @@
+
+.btn-primary {
+  background-color: rgb(143, 250, 225);
+  font-weight: bolder;
+  /* color: black; */
+  
+}
+
+.cart-button {
+  /* background-color: #007bff;  */
+  border-color: #007bff; 
+  color: #f5f2f2; 
+}
+
+.cart-button:hover {
+  background-color: #0056b3; 
+  border-color: #0056b3; 
+}
+
+.navbar-form {
+  margin-left: 550px;
+}
+/* .navbar-nav {
+  margin-left: 25vw;
+} */
+
+.navbar {
+  background-color: rgb(81, 80, 80);
+  width: 100%;
+  /* margin-right: 80vh; */
+}
+
+.navbar-header {
+  font-weight: bolder;
+  color: black;
+}
+
+/* .nav {
+  height: 60%;
+  width: 60%;
+} */
+
