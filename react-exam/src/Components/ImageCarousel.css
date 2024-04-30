@@ -1,10 +1,60 @@
-.App {
-    height: 100%;
-    width: 100%;
+.Carousel {
+    height: 600px;
+    width:80%;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow-y: hidden;
     background-size: cover;
     object-fit: cover;
+    margin-left: 10%;
 }
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* background-color: aliceblue; */
+  }
+  
+  .prev-button {
+    background-color: aliceblue;
+    order: 1;
+    color: black;
+  }
+  
+  .next-button {
+    background-color: aliceblue;
+    color: black;
+    order: 2;
+  }
+  .carousel-container {
+    position: relative;
+  }
+  
+  .carousel .control-arrow.control-prev,
+  .carousel .control-arrow.control-next {
+    display: none; 
+  }
+  
+  .arrow {
+    font-size: 24px;
+  }
+  
+  .arrow.left::before {
+    content: "<";
+    margin-right: 10px;
+    /* transform: translateX(-50%); */
+  }
+  
+  .arrow.right::before {
+    content: ">";
+    margin-left: 10px;
+  }
+  .arrow.left {
+    margin-top: 40px;
+  }
+  .buttons-container1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
